@@ -17,7 +17,7 @@ export default class About extends Component {
                 <li><strong>Experience: </strong>22 Years</li>
                 <li><strong>Specialties: </strong>HTML CSS JAVASCRIPT</li>
                 <li><strong>Website: </strong><a href="mrbean.com">MrBean.com</a></li>
-                <li><strong>Contact: </strong>BeanBaby@gmail.com</li>
+                <li><strong>Contact: </strong>BeanBaby@gmail.com</li> 
               </ul>
             </div>
           </div>
