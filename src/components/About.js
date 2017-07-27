@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 
 export default class About extends Component {
-  constructor(props) {
-    super(props)
 
-  }
 
   render() {
 
@@ -14,7 +11,7 @@ export default class About extends Component {
           <div className="jumbotron">
             <div className="page-header">
               <h1>About Me</h1>
-              <img id="bean" src="http://www.elasperger.org/wp-content/uploads/2013/10/atkinson-says-goodbye-to-beloved-character-mr-bean1.jpg"></img>
+              <img alt="" id="bean" src="http://www.elasperger.org/wp-content/uploads/2013/10/atkinson-says-goodbye-to-beloved-character-mr-bean1.jpg"></img>
               <ul>
                 <li><strong>Name: </strong>Rowan Atkinson</li>
                 <li><strong>Experience: </strong>22 Years</li>

@@ -1,15 +1,8 @@
 import React, { Component } from 'react'
-import About from './About'
-import Home from './Home'
-import Portfolio from './Portfolio'
-
 import {NavLink} from 'react-router-dom'
 
 export default class BaseLayout extends Component {
-  constructor(props) {
-    super(props)
 
-  }
 
   render() {
 
