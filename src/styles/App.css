@@ -11,7 +11,6 @@
 .App-header {
   background-color: #222;
   height: 150px;
-  padding: 20px;
   color: white;
 }
 
@@ -25,13 +24,15 @@
 }
 
 #bean {
-  height: 350px;
-  width: 325px;
+  height: 375px;
+  width: 350px;
   border-radius: 50%;
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
 .btn {
-  margin: 0 2em;
+  margin: 0 1em;
   font-size: 200%;
 }
 
@@ -43,6 +44,10 @@ h2 {
 .home-pics {
   max-width: 400px;
   margin: 20px 0px;
+}
+
+h1 {
+margin-bottom: 0;
 }
 
 .row {
@@ -62,4 +67,181 @@ li {
 .port-images {
   margin: 10px;
   border-radius: 4px;
+}
+
+footer {
+  width: 1450px;
+  background-color: #333;
+  color: #9d9d9d;
+}
+
+.car-pics {
+  height: 400px;
+  width: 800px;
+}
+
+.bigDaddy {
+  margin-bottom: 230px;
+  height: 400px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-inner {
+  height: 450px;
+  width: 800px;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.children {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#carousel-example-generic{
+  width: 800px;
+}
+
+.footer-text h1 {
+  margin-bottom: 0;
+}
+
+.home-para {
+  width: 400px;
+}
+
+#bar-graph {
+  margin-bottom: 30px;
+}
+
+.col-xs-6 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#jumbo-about {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0;
+  margin-bottom: 100px;
+}
+
+.progress {
+  width: 50%;
+}
+
+.about-header {
+  margin-right: 80px;
+  background-color: none;
+  border: none;
+  flex-basis: 100%;
+  margin-top: 0;
+  background-color: #D7CCC8;
+  font-size: 80px;
+  border-bottom: 1px solid black;
+
+}
+
+.about-ul {
+    transform: translateY(160px);
+}
+
+.about-panels {
+  width: 300px;
+  margin-top: 30px;
+}
+
+.bar-header {
+  text-align: justify;
+  color: green;
+  font-size: 40px;
+}
+
+.reference-card {
+  margin-top: 50px;
+}
+
+.reference-cards {
+  display: flex;
+  justify-content: space-around;
+  width: 120%;
+  margin-top: 5%;
+
+}
+
+#reference-img {
+  width: 300px;
+  height: 250px;
+}
+
+.contact-div {
+  margin-top: 5%;
+  width: 120%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 30%;
+}
+
+textarea {
+  width: 30%;
+}
+
+.contact-jumbo {
+  width: 40%;
+  margin-top: 50px;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.contact-ul {
+  padding: 0;
+}
+
+.contact-header {
+  font-size: 50px;
+  margin-left: 250px;
+  margin-top: 50px;
+  border-bottom: 1px solid black;
+}
+
+.well {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.well p {
+  color: #45808e;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 260px;
+  margin-top: 50px;
+}
+
+input {
+  line-height: 2;
+}
+
+.port-jumbo {
+  width: 90%;
+  margin-left: 270px;
 }

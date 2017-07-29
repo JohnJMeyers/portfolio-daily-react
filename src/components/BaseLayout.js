@@ -8,24 +8,23 @@ export default class BaseLayout extends Component {
 
     return(
       <div className="BaseLayout">
-
-        <nav>
+        <nav className="navbar navbar-default navbar-fixed-top navbar-inverse">
           <div className="container">
-            <NavLink className="btn btn-link btn-lg" to='/'> Home </NavLink>
-            <NavLink className="btn btn-link btn-lg" to='/about'> About </NavLink>
-            <NavLink className="btn btn-link btn-lg" to='/portfolio'> Portfolio </NavLink>
+            <NavLink activeStyle={{color: 'red'}} className="btn btn-link btn-lg" to='/'> Home </NavLink>
+            <NavLink activeClassName="active" className="btn btn-link btn-lg" to='/about'> About </NavLink>
+            <NavLink activeClassName="active" className="btn btn-link btn-lg" to='/portfolio'> Portfolio </NavLink>
+            <NavLink activeClassName="active" className="btn btn-link btn-lg" to='/references'> References </NavLink>
+            <NavLink activeClassName="active" className="btn btn-link btn-lg" to='/contact'> Contact </NavLink>
           </div>
         </nav>
 
-        <main>
           <div className="children">
             {this.props.children}
           </div>
-        </main>
 
         <footer>
-          <div>
-            <h1>MrBean.com &#169;</h1>
+          <div className="footer-text">
+          <h1>MrBean.com <small>&#169;</small></h1>
           </div>
         </footer>
 
